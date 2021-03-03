@@ -1,7 +1,7 @@
-# hyperdrive-network-heuristics
-Networking heuristics for announcing Hyperdrives on Hyperswarm
+# ddrive-network-heuristics
+Networking heuristics for announcing dDrives on dSwarm
 
-These heuristics are used in the [`hyperdrive-daemon-client`](https://github.com/hyperspace-org/hyperdrive-daemon-client) and [`@hyperspace/hyperdrive`](https://github.com/hyperspace-org/hyperdrive-service).
+These heuristics are used in the [`@ddrive/daemon-client`](https://github.com/dwebprotocol/ddrive-daemon-client) and [`@dhub/ddrive`](https://github.com/dwebprotocol/ddrive-service).
 
 ### Usage
 There's only one exported method, which is used to enable the networking heuristics:
@@ -10,8 +10,8 @@ There's only one exported method, which is used to enable the networking heurist
 
 Applies networking heuristics to a drive.
 
-- `drive`: A Hyperdrive instance
-- `networker`: A `@corestore/networker` or Hyperspace `RemoteNetworker`
+- `drive`: A DDrive instance
+- `networker`: A `@basestore/networker` or dHub `RemoteNetworker`
 
 ### License
 MIT
