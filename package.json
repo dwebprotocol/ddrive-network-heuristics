@@ -1,25 +1,25 @@
 {
-  "name": "hyperdrive-network-heuristics",
-  "version": "1.0.2",
-  "description": "Networking heuristics for announcing Hyperdrives on Hyperswarm.",
+  "name": "@ddrive/network-heuristics",
+  "version": "1.0.0",
+  "description": "Network heuristics for dDrive.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/andrewosh/hyperdrive-network-heuristics.git"
+    "url": "https://github.com/dwebprotocol/ddrive-network-heuristics.git"
   },
   "keywords": [
-    "hyperdrive",
-    "networking",
-    "corestore",
+    "ddrive",
+    "network",
+    "basestore",
     "heuristics"
   ],
-  "author": "Andrew Osheroff <andrewosh@gmail.com>",
+  "author": "PeepsLabs <peepslabs@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/andrewosh/hyperdrive-network-heuristics/issues"
+    "url": "https://github.com/dwebprotocol/ddrive-network-heuristics/issues"
   },
-  "homepage": "https://github.com/andrewosh/hyperdrive-network-heuristics#readme"
+  "homepage": "https://dwebx.org"
 }
