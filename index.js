@@ -13,7 +13,7 @@ module.exports = async function applyHeuristics (drive, networker) {
       // If the configuration couldn't be overwritten, that's OK.
     })
   }
-  // If this is a Hyperdrive.promise instance, get the inner drive.
+  // If this is a DDrive.promise instance, get the inner drive.
   if (drive.drive) drive = drive.drive
   drive.on('mount', mountListener)
   drive.once('close', () => drive.removeListener('mount', mountListener))
